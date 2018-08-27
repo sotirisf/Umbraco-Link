@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentType Folders="NC+Items">
+  <Info>
+    <Name>Link to File</Name>
+    <Alias>ncFileLinkItem</Alias>
+    <Icon>icon-download-alt</Icon>
+    <Thumbnail>folder.png</Thumbnail>
+    <Description />
+    <AllowAtRoot>False</AllowAtRoot>
+    <IsListView>False</IsListView>
+    <Compositions>
+      <Composition>abstractNcLinkItem</Composition>
+    </Compositions>
+    <AllowedTemplates />
+    <DefaultTemplate></DefaultTemplate>
+  </Info>
+  <Structure />
+  <GenericProperties>
+    <GenericProperty>
+      <Name>Link to File</Name>
+      <Alias>fileLink</Alias>
+      <Type>Umbraco.MediaPicker2</Type>
+      <Definition>9b171e66-6a38-468a-ad36-5bd35a1d154e</Definition>
+      <Tab>Contents</Tab>
+      <SortOrder>1</SortOrder>
+      <Mandatory>False</Mandatory>
+      <Description><![CDATA[If you specify a link here, internal link is ignored]]></Description>
+    </GenericProperty>
+  </GenericProperties>
+  <Tabs>
+    <Tab>
+      <Id>92</Id>
+      <Caption>Contents</Caption>
+      <SortOrder>0</SortOrder>
+    </Tab>
+  </Tabs>
+</DocumentType>

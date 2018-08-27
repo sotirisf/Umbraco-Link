@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentType Folders="NC+Items">
+  <Info>
+    <Name>Link - External</Name>
+    <Alias>ncExternalLinkItem</Alias>
+    <Icon>icon-out</Icon>
+    <Thumbnail>folder.png</Thumbnail>
+    <Description />
+    <AllowAtRoot>False</AllowAtRoot>
+    <IsListView>False</IsListView>
+    <Compositions>
+      <Composition>abstractNcLinkItem</Composition>
+    </Compositions>
+    <AllowedTemplates />
+    <DefaultTemplate></DefaultTemplate>
+  </Info>
+  <Structure />
+  <GenericProperties>
+    <GenericProperty>
+      <Name>External Link</Name>
+      <Alias>externalLink</Alias>
+      <Type>Umbraco.Textbox</Type>
+      <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+      <Tab>Contents</Tab>
+      <SortOrder>5</SortOrder>
+      <Mandatory>False</Mandatory>
+      <Validation>https?://[a-zA-Z0-9-.]+.[a-zA-Z]{2,}</Validation>
+      <Description><![CDATA[If you specify an external link here, any internal link and/or link to file will be ignored.]]></Description>
+    </GenericProperty>
+  </GenericProperties>
+  <Tabs>
+    <Tab>
+      <Id>93</Id>
+      <Caption>Contents</Caption>
+      <SortOrder>0</SortOrder>
+    </Tab>
+  </Tabs>
+</DocumentType>

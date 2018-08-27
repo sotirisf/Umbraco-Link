@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentType Folders="NC+Items">
+  <Info>
+    <Name>Link - Internal</Name>
+    <Alias>ncInternalLinkItem</Alias>
+    <Icon>icon-link</Icon>
+    <Thumbnail>folder.png</Thumbnail>
+    <Description />
+    <AllowAtRoot>False</AllowAtRoot>
+    <IsListView>False</IsListView>
+    <Compositions>
+      <Composition>abstractNcLinkItem</Composition>
+    </Compositions>
+    <AllowedTemplates />
+    <DefaultTemplate></DefaultTemplate>
+  </Info>
+  <Structure />
+  <GenericProperties>
+    <GenericProperty>
+      <Name>Internal Link</Name>
+      <Alias>internalLink</Alias>
+      <Type>Umbraco.MultiNodeTreePicker2</Type>
+      <Definition>19aacf4b-0e7e-44cd-8064-555a5940bd88</Definition>
+      <Tab>Contents</Tab>
+      <SortOrder>5</SortOrder>
+      <Mandatory>False</Mandatory>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>Internal Link Querystring Parameters</Name>
+      <Alias>internalLinkQuerystringParameters</Alias>
+      <Type>Umbraco.Textbox</Type>
+      <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+      <Tab>Contents</Tab>
+      <SortOrder>7</SortOrder>
+      <Mandatory>False</Mandatory>
+      <Description><![CDATA[Enter any additional querystring parameters you want to add to the internal link, in the form "a=1&b=2" (without the question mark).]]></Description>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>Internal Link Anchor</Name>
+      <Alias>internalLinkAnchor</Alias>
+      <Type>Umbraco.Textbox</Type>
+      <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+      <Tab>Contents</Tab>
+      <SortOrder>6</SortOrder>
+      <Mandatory>False</Mandatory>
+      <Description><![CDATA[Use this in combination with the internal link to navigate to a specific part of the page.]]></Description>
+    </GenericProperty>
+  </GenericProperties>
+  <Tabs>
+    <Tab>
+      <Id>91</Id>
+      <Caption>Contents</Caption>
+      <SortOrder>0</SortOrder>
+    </Tab>
+  </Tabs>
+</DocumentType>

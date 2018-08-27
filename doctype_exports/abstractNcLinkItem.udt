@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DocumentType Folders="NC+Items">
+  <Info>
+    <Name>AbstractNcLinkItem</Name>
+    <Alias>abstractNcLinkItem</Alias>
+    <Icon>icon-link</Icon>
+    <Thumbnail>folder.png</Thumbnail>
+    <Description />
+    <AllowAtRoot>False</AllowAtRoot>
+    <IsListView>False</IsListView>
+    <Compositions />
+    <AllowedTemplates />
+    <DefaultTemplate></DefaultTemplate>
+  </Info>
+  <Structure />
+  <GenericProperties>
+    <GenericProperty>
+      <Name>Other Attributes</Name>
+      <Alias>otherAttributes</Alias>
+      <Type>Umbraco.NestedContent</Type>
+      <Definition>d3192f82-9b39-4076-bb7e-78bd0a5fb043</Definition>
+      <Tab>Contents</Tab>
+      <SortOrder>141</SortOrder>
+      <Mandatory>False</Mandatory>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>ALT text</Name>
+      <Alias>altText</Alias>
+      <Type>Umbraco.Textbox</Type>
+      <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+      <Tab>Contents</Tab>
+      <SortOrder>110</SortOrder>
+      <Mandatory>False</Mandatory>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>Open Link in New Window</Name>
+      <Alias>openLinkInNewWindow</Alias>
+      <Type>Umbraco.TrueFalse</Type>
+      <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+      <Tab>Contents</Tab>
+      <SortOrder>140</SortOrder>
+      <Mandatory>False</Mandatory>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>Use Caption as ALT and TITLE values</Name>
+      <Alias>useCaptionForAltAndTitle</Alias>
+      <Type>Umbraco.TrueFalse</Type>
+      <Definition>92897bc6-a5f3-4ffe-ae27-f2e7e33dda49</Definition>
+      <Tab>Contents</Tab>
+      <SortOrder>130</SortOrder>
+      <Mandatory>False</Mandatory>
+      <Description><![CDATA[Check this box if you want the caption field's value to be used in the ALT and TITLE attributes as well if their respective fields are left empty.]]></Description>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>TITLE text</Name>
+      <Alias>titleText</Alias>
+      <Type>Umbraco.Textbox</Type>
+      <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+      <Tab>Contents</Tab>
+      <SortOrder>120</SortOrder>
+      <Mandatory>False</Mandatory>
+    </GenericProperty>
+    <GenericProperty>
+      <Name>Caption</Name>
+      <Alias>caption</Alias>
+      <Type>Umbraco.Textbox</Type>
+      <Definition>0cc0eba1-9960-42c9-bf9b-60e150b429ae</Definition>
+      <Tab>Contents</Tab>
+      <SortOrder>100</SortOrder>
+      <Mandatory>False</Mandatory>
+      <Description><![CDATA[If you don't fill this field, the element will not be displayed at all.]]></Description>
+    </GenericProperty>
+  </GenericProperties>
+  <Tabs>
+    <Tab>
+      <Id>94</Id>
+      <Caption>Contents</Caption>
+      <SortOrder>0</SortOrder>
+    </Tab>
+  </Tabs>
+</DocumentType>
